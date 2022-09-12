@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.beer-header {
+  padding-top: 18px;
+  color: #ccc;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-container {
+  padding: 18px;
+}
+.beer-card {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 18px 36px 18px 0px;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: right;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.beer-card:hover {
+  background: #f2f8fd;
+}
+.beer-card .title-text {
+  font-weight: 500;
+}
+.beer-card .sub-title-text {
+  color: #dfb562;
+}
+.center-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 18px 36px;
+}
+.load-more-button {
+  color: #3d8bd1;
+  border: none;
+  background: transparent;
+}
+.image-holder {
+  padding: 0px 48px;
+}
+.image-keeper {
+  height: 180px;
+  width: 64px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
